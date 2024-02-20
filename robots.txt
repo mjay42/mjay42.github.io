@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mjay42.github.io/blog//sitemap.xml
+Sitemap: https://mjay42.github.io/sitemap.xml
