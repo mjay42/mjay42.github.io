@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: project 2
 description: [French] Class on Energy & Environnement Impacts of digital infrastructures
 img: 
 importance: 1
