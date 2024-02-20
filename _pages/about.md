@@ -2,25 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile2.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>PhD Student from France</p>
+    <p>Machine Learning & Sustainability</p>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: False  # includes a list of news items
+latest_posts: False  # includes a list of the newest posts
+selected_papers: False # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
+PhD student at the **University of Grenoble Alpes**, I am interested in *reducing the environnemental impact of artificial intelligence*. I have been studying how to precisely measure the energy consumption of machine learning model training.     
+    
+I graduated in 2021 from the engineering school IMT Atlantique (Télécom Bretagne degree) with a specialization in **Distributed Systems** and a master in **Data Science** from EURECOM.    
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+During my studies I have had the opportunity to do several long internships in both small and internationnal companies. I wrote my master thesis at **Quantum Surgical** on the segmentation of medical images. Then I interned twice at **Google**, first in Messaging and secondly in Cloud. All internhsips were amazing experiences where I learned how to process and learn from massive sensitive databases, I developed *software engineering skills* and I first managed my own projects. I realized that my *soft skills*, such as presenting my work and networking, were some of my most important strengths.  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Through my travels, I have become highly aware of the impact of climate change which is the reason I am doing research on the impact of digital activities and more precisely of artificial intelligence.    
+Outside of work, I love climbing, ski touring & trekking. I have played the transverse flute in a Wind Orchestra for a few years during my previous studies.  
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+You will find in here my detailed CV and my publications. I am still working on adding videos of talks I gave (mostly in french) and slides of my most relevant talks and courses. 
