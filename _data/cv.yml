@@ -1,97 +1,132 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Mathilde Jay
+#     - name: Date of Birth
+#       value: 4th April 1997
+#     - name: Languages
+#       value: French, English, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Grenoble Alpes, Grenoble, France
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Energy and envionmental impact of Machine Learning
+        - Member of MIAI Edge Intelligence, Inria DataMove (LIG, UGA), Inria Avalon (LIP, ENS Lyon) 
+        - Under the supervision of Professor Denis Trystram & Dr Laurent Lefevre
+    - title: Engineering degree
+      institution: IMT Atlantique, Brest, France
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Software Engineering and Distributed Systems
+        - Network and Telecommunication
+        - Mathematics for Telecommunications
+    - title: Master degree
+      institution: EURECOM, Sophia-Antipolis, France
+      year: 2020
+      description:
+        - Software Engeering and Data Science
+        - Machine Learning
+        - Data Management
+    - title: Preparatory classes for French Engineering Schools
+      institution: Lycée du Parc, Lyon, France
+      year: 2017
+      description:
+        - PCSI, PSI
+        - Mathematics, Physics, Computer Science
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineering Internship
+      institution: Google, Cloud Computing Platform predictive autoscaling team
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed a platform to simulate traffic on GCE to study the impact of the CPU utilization on the client latency.
+        - Supervised by Mateusz Wasilewski, Professor Krzysztof Rzadca
+
+    - title: Project - Distributed ledger
+      institution: IMT Atlantique
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Analyzed the convergence of a distributed gradient descent algorithm for a distributed ledger (IOTA).
+        - Submitted a research paper to the UNet Conference.
+        - Supervised by Professor Alexandre Reiffers-Masson
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Internship in Site Reliability Engineering
+      institution: Google, Zürich, Switzerland
+      year: 2020
       description:
+        - Worked on a detail of Google’s RCS (Rich Communication Services) infrastructure. 
+        - Investigated and developed in Python methods that compute optimal keep-alive intervals for TCP connections to be utilized by the mobile phone.
+        - Supervised by Dr Andreas Wierz
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Master thesis in Deep Learning Research
+      institution: Quantum Surgical, Montpellier, France
+      year: 2018
+      description:
+        - Developed cutting-edge deep learning models for medical Image Segmentation (Liver lesions) using Tensorflow & Keras.
+        - Supervised by Dr Estanislao Oubel, Professor Maurizio Filippone
 
-- title: Open Source Projects
+- title: Teachings
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Main teacher
+      institution: Société Informatique de France (SIF), ANF UST4HPC
+      year: 2023
+      description:
+        - On the energy consumption of IT.
+        - 1 hour course.
+        - 2 hours of practical session.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Main teacher
+      institution: University of Grenoble Alpes, Grenoble, France
+      year: 2022
+      description: 
+      - University course on eco-responsible digital.
+      - How can the energy consumption of a workload be measured?
+      - 1 hour course + tutoring of 2 students on their project.
+
+    - title: Teaching Assistant
+      institution: ENSIMAG, Grenoble INP
+      year: 2022
+      description:
+        - Section responsible IT (Sylvain Bouveret).
+        - M2 Engineer students.
+        - I supervised a practical session on the energy consumption of IT.
+
+    - title: Teaching Assistant
+      institution: ENSIMAG, Grenoble INP
+      year: 2021-2023
+      description:
+        - Advanced Algorithmic Programming.
+        - M1 Apprentice Engineer students.
+        - I supervised practical sessions on advanced algorithmic programming for three years. Every year, I proposed a new lab for the student to implement brute force, bound&branch or dynamic programmic solutions for diverse problems. For example, we worked on scheduling, the travelsman problem (little algorithm), optimal binary search tree, etc.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Sustainability in IT
+      items: 
+        - Energy measurement
+        - Energy optimization
+        - Embodied footprint
+    - title: Shared and Distributed Systems
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Distributed Machine Learning
+        - Cloud Computing
+        - Edge Computing
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Federated Learning
+        - Natural Language Processing
+        - Large Language Models
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Climbing, Moutaneering, Skiing
