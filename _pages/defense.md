@@ -2,64 +2,43 @@
 layout: page
 title: PhD Defense
 permalink: /defense/
-description: Information on my PhD Defense
+description:
 nav: true
 nav_order: 3
-display_categories: [work]
+# display_categories: [work]
 horizontal: false
 ---
+The defense is scheduled for **Tuesday, October 15th, 2024, at 3:00 pm**. The event will take place at ENSIMAG (Amphithéâtre H, Building H), 161 Rue des Mathématiques 89, 38400 Saint-Martin-d'Hères. It will also be broadcast live. The presentation will be in English.
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+The reviewed manuscript of my thesis can be found here: [Link to Manuscript](assets/pdf/PhD_Thesis_Mathilde_JAY.pdf).
 
-{% else %}
+The visioconference link will be added in the coming weeks.
 
-<!-- Display projects without categories -->
+# Jury
+### Reviewers
+- Aurélie BUGEAU, Professeure des Universités, Université de Bordeaux
+- Anne-Laure LIGOZAT, Professeure des Universités, Université Paris Saclay
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+### Examinators
+- Emma STRUBELL, Assistant Professor, Carnegie Mellon University
+- Sylvain BOUVERET, Maître de conférences, Grenoble INP - Université de Grenoble Alpes
+- Claude LEPAPE, Ingénieur de Recherche, Schneider Electric
+- Claudia RONCANCIO, Professeure des Universités, Grenoble INP - Université Grenoble Alpes
 
-  <!-- Generate cards for each project -->
+### Guest
+- Bruno MONNET, Ingénieur, Hewlett Packard Enterprise (Guest)
 
-{% if page.horizontal %}
+### PhD Supervisors
+- Denis TRYSTRAM, Professeur des Universités, Grenoble INP - Université de Grenoble Alpes
+- Laurent LEFÈVRE, Chargé de Recherche HDR, Ecole Normale Supérieure de Lyon
 
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+# Abstract
+The number of Artificial Intelligence applications being developed and deployed is continually increasing. The effects of these activities on the biosphere, particularly on climate change, have attracted attention since 2019, but assessment methodologies still require improvement. More advanced evaluation methods and a deeper understanding of these impacts are necessary to minimize the environmental impacts of artificial intelligence.
+
+With an emphasis on the training phase, this thesis investigates how machine learning (ML) affects the environment.
+
+First, we question how the electricity consumption of IT infrastructures is measured by comparing power meters currently in use with different benchmarks and infrastructures, focusing on Graphic Processing Units (GPUs).
+These findings are used to analyze the electricity required to train models selected from the MLPerf benchmark on various ML infrastructures, ranging from an edge device to a supercomputer. 
+Finally, the thesis shifts toward examining the more general environmental impacts of ML, based on an estimation of the embodied impacts of ML infrastructures. These impacts are allocated to each model training, enabling a comparison with the impacts of electricity usage. While numerous ML environmental impact indicators exist, this study focuses on primary energy consumption, global warming potential, and abiotic depletion potential for minerals and metals.
+
+In conclusion, this thesis proposes a methodology that enables a reproducible multi-criteria evaluation of the impact of machine learning training on the environment and can be applied to different ML infrastructures, thus enabling fair comparison and enlightened choices.
