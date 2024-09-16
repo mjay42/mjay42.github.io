@@ -1,8 +1,8 @@
 ---
 layout: page
-title: activities
-permalink: /projects/
-description: 
+title: PhD Defense
+permalink: /defense/
+description: Information on my PhD Defense
 nav: true
 nav_order: 3
 display_categories: [work]
