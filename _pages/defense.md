@@ -10,7 +10,7 @@ horizontal: false
 ---
 The defense is scheduled for **Tuesday, October 15th, 2024, at 3:00 pm**. The event will take place at ENSIMAG (Amphithéâtre H, Building H), 161 Rue des Mathématiques 89, 38400 Saint-Martin-d'Hères. It will also be broadcast live. The presentation will be in English.
 
-The reviewed manuscript of my thesis can be found here: [Link to Manuscript](../assets/pdf/PhD_Thesis_Mathilde_JAY.pdf).
+The reviewed manuscript of my thesis can be found here: [Link to Manuscript](../assets/pdf/PhD_Thesis_Mathilde_JAY.pdf). It is entitled: "*A Versatile Methodology for Assessing the Electricity Consumption and Environmental Footprint of Machine Learning Training: from Supercomputers to Edge Devices*".
 
 The visioconference link will be added in the coming weeks.
 
