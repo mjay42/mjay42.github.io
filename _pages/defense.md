@@ -28,7 +28,7 @@ The reviewed manuscript of my thesis can be found here: [Link to Manuscript](../
 
 ### PhD Supervisors
 - Denis TRYSTRAM, Professeur des Universités, Grenoble INP - Université de Grenoble Alpes
-- Laurent LEFÈVRE, Chargé de Recherche HDR, Ecole Normale Supérieure de Lyon
+- Laurent LEFÈVRE, Chargé de Recherche HDR, Inria
 
 # Abstract
 The number of Artificial Intelligence applications being developed and deployed is continually increasing. The effects of these activities on the biosphere, particularly on climate change, have attracted attention since 2019, but assessment methodologies still require improvement. More advanced evaluation methods and a deeper understanding of these impacts are necessary to minimize the environmental impacts of artificial intelligence.
